@@ -37,12 +37,17 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!--jsp-->
+		<!--Thymeleaf-->
 		<dependency>
-			<groupId>org.apache.tomcat.embed</groupId>
-			<artifactId>tomcat-embed-jasper</artifactId>
-			<scope>provided</scope>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
+		<!--jsp-->
+<!--		<dependency>-->
+<!--			<groupId>org.apache.tomcat.embed</groupId>-->
+<!--			<artifactId>tomcat-embed-jasper</artifactId>-->
+<!--			<scope>provided</scope>-->
+<!--		</dependency>-->
 	</dependencies>
 
 	<build>
@@ -61,5 +66,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>
